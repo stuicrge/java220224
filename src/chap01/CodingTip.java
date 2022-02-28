@@ -17,7 +17,7 @@ public class CodingTip {
 //		창크기 변경: ctrl + m
 //		새파일 : ctrl + n
 //		저장 : ctrl + s
-		
+//      수정 오류해결 ctrl+1		
 		
 	}
 }
