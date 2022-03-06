@@ -1,6 +1,40 @@
-package chap99codingbat;
+package chap99codingbat.codingbat;
 
 public class Array2 {
+	
+	public int[] shiftLeft(int[] nums) {
+		 int []result = new int[nums.length];
+		  
+		  for(int i=0; i<nums.length; i++){
+		    result[i] = nums[(i+1)%nums.length];
+		  }
+		  return result;
+		} 
+	
+	public int[] fizzArray3(int start, int end) {
+		  
+		  int []arr1 = new int[end-start];
+		  
+		  for(int i=start;i<end;i++){
+		    arr1[i-start]=i;
+		  }
+		  
+		  return arr1;
+		}
+	
+	
+	public int[] fizzArray(int n) {
+		  
+		  int []arr1;
+		  arr1 = new int[n];
+		  
+		  for(int i=0;i<n;i++){
+		    arr1[i]=i;
+		  }
+		  
+		  return arr1;
+		}
+	
 	public int countEvens(int[] nums) {	  
 		  int cnt=0;	  
 		  for(int i = 0; i<nums.length;i++){

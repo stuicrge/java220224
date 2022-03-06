@@ -1,4 +1,4 @@
-package chap99codingbat;
+package chap99codingbat.codingbat;
 
 public class Array1 {
 
