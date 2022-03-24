@@ -12,7 +12,7 @@ public class Leet2160 {
 	        int n4 = num%10;
 	        
 	        int []arr = {n1,n2,n3,n4};
-	        Arrays.sort(arr);
+	      //  Arrays.sort(arr);
 	        
 	        int result = arr[0]*10+arr[1]*10+arr[2]+arr[3];
 	        return result;
